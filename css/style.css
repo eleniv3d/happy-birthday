@@ -6,13 +6,13 @@
 }
 
 body {
-  background: #E5E5E5;
+  background: #883c77;
   background-image: url("bg.jpg");
 }
 
 #card-front {
-  color: #FFDFDF;
-  z-index: 10;
+  color: #8a2c2c;
+  z-index: 8;
 }
 
 #card, #card-front, #card-inside {
@@ -32,8 +32,9 @@ body {
   left: 50%;
 }
 
+/* change color, card right side */
 #card-inside .wrap {
-  background: #FFEFEF;
+  background: #7b967c;
   -webkit-box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.05);
           box-shadow: inset 2px 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -58,23 +59,34 @@ body {
   left: 0;
 }
 
+/* move all inclusive Get-Away in Lausanne */
 #card h1 {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-style: italic;
-  font-size: 70px;
+  font-size: 50px;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
+  color: #FFF;
+}
+
+#card h2 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+  font-size: 30px;
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
   color: #FFF;
 }
 
 #card-inside {
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: 1.4;
 font-family: 'Lobster';
   color: #331717;
   font-style: italic;
 }
 
+/* this is German speakers */
 p {
   margin-top: 1em;
 }
@@ -87,13 +99,13 @@ p.signed {
   margin-top: 1.5em;
   text-align: center;
 font-family: 'Indie Flower', cursive;
-  font-size: 1.5em;
+  font-size: 1.0em;
 }
 
 #card-front {
   background-color: #ee9ca7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF5555), to(#FF7777));
-  background-image: linear-gradient(top, #FF5555 0%, #FF7777 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ad387b), to(#FF7777));
+  /* background-image: linear-gradient(top, #FF5555 0%, #95337c 100%); */
   -webkit-transform-origin: left;
           transform-origin: left;
   -webkit-transition: -webkit-transform 1s linear;
@@ -130,7 +142,7 @@ font-family: 'Indie Flower', cursive;
   position: absolute;
   bottom: 1em;
   right: -12px;
-  background: #F44;
+  background: rgb(161, 37, 113);
   color: #FFF;
   font-family: 'Lobster', cursive;
   font-style: italic;
@@ -145,7 +157,7 @@ font-family: 'Indie Flower', cursive;
 
 #card-front button:hover,
 #card-front button:focus {
-  background: #F22;
+  background: rgb(230, 119, 177);
 }
 
 #close {
@@ -421,7 +433,8 @@ font-family: 'Lobster', cursive;
 
 @keyframes fade-in {
   from {
-    opacity: 0;
+    /* change to adjust opacity */
+    opacity: 1;
   }
   to {
     opacity: 1;
