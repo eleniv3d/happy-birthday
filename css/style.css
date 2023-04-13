@@ -75,7 +75,7 @@ body {
   text-align: center;
   font-family: 'Lobster', cursive;
   font-style: italic;
-  font-size: 30px;
+  font-size: 32px;
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.15), 1px 1px 0 #ffc8c8, 2px 2px 0 #ff9696, 3px 3px 0 #ff7d7d;
   color: #FFF;
 }
@@ -106,7 +106,7 @@ font-family: 'Indie Flower', cursive;
 
 #card-front {
   background-color: #ee9ca7;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ad387b), to(#FF7777));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(230, 174, 168)), to(rgb(233, 183, 177)));
   /* background-image: linear-gradient(top, #FF5555 0%, #95337c 100%); */
   -webkit-transform-origin: left;
           transform-origin: left;
